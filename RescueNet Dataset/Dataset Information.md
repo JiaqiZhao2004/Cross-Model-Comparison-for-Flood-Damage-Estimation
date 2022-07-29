@@ -3,6 +3,7 @@
 The RescueNet Dataset is created by Tashnim Chowdhury, Robin Murphy, and Maryam Rahnemoonfar. Their GitHub repository is this [link](https://github.com/BinaLab/RescueNet-A-High-Resolution-Post-Disaster-UAV-Dataset-for-Semantic-Segmentation). Their original README file is here:
 
 ------------------------------------------------------------------------------
+_(start)
 
 # RescueNet Dataset 
 
@@ -39,3 +40,28 @@ Please cite our paper when using the dataset
 }
 
 ```
+_(End)_
+
+------------------------------------------------------------------------------
+
+# Implementation
+
+The dataset is first downloaded into Google Colab, unzipped in the Colab notebook, and then reassembled into 13 smaller folders for easier download. Each folder is then uploaded onto Kaggle. 
+
+1. rescuenet-train-1-of-10 (360 images, 0 labels) [link](https://www.kaggle.com/datasets/royzhao2004/rescuenet-train-1-of-10/)
+2. rescuenet-train-2-of-10 (360 images, 0 labels) [link](https://www.kaggle.com/datasets/royzhao2004/rescuenet-train-2-of-10/)
+3. rescuenet-train-3-of-10 (360 images, 0 labels) [link](https://www.kaggle.com/datasets/royzhao2004/rescuenet-train-3-of-10/)
+4. rescuenet-train-4-of-10 (360 images, 0 labels) [link](https://www.kaggle.com/datasets/royzhao2004/rescuenet-train-4-of-10/)
+5. rescuenet-train-5-of-10 (360 images, 0 labels) [link](https://www.kaggle.com/datasets/royzhao2004/rescuenet-train-5-of-10/)
+6. rescuenet-train-6-of-10 (360 images, 0 labels) [link](https://www.kaggle.com/datasets/royzhao2004/rescuenet-train-6-of-10/)
+7. rescuenet-train-7-of-10 (360 images, 0 labels) [link](https://www.kaggle.com/datasets/royzhao2004/rescuenet-train-7-of-10/)
+8. rescuenet-train-8-of-10 (360 images, 0 labels) [link](https://www.kaggle.com/datasets/royzhao2004/rescuenet-train-8-of-10/)
+9. rescuenet-train-9-of-10 (360 images, 0 labels) [link](https://www.kaggle.com/datasets/royzhao2004/rescuenet-train-9-of-10/)
+10. rescuenet-train-10-of-10 (355 images, 0 labels) [link](https://www.kaggle.com/datasets/royzhao2004/rescuenet-train-10-of-10/)
+11. rescuenet-train-missed (733 images, 0 labels) [link](https://www.kaggle.com/datasets/royzhao2004/rescuenet-train-missed) # 733 images was downloaded twice during the split-download of the 3595 train images, and therefore 733 are lost. Here the missed images are re-collected.
+
+12. rescuenet-train-labels (0 images, 3595 labels) [link](https://www.kaggle.com/datasets/royzhao2004/rescuenet-train-labels)
+
+13. rescuenet-val (449 images-label pairs) [link](https://www.kaggle.com/datasets/royzhao2004/rescuenet-val)
+
+14. rescuenet-test (450 images-label pairs) [link](https://www.kaggle.com/datasets/royzhao2004/rescuenet-test)
